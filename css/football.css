@@ -1,0 +1,231 @@
+*{
+	font-family: 'adihausbold',Arial,Helvetica,Verdana,sans-serif;
+}
+.football-pimg1{
+	min-height: 650px;
+	/*clear: left;*/
+	background: #000;
+}
+#unlock-agility{
+	font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: adihausDIN-regular-cond,sans-serif;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-stretch: condensed;
+}
+.product-slide{
+	width: 160px;
+	height: 60px;
+	-webkit-filter: opacity(0.8) drop-shadow(0 0 0 white);
+  	filter: opacity(0.8) drop-shadow(0 0 0 white);
+  	float: left;
+  	border-left: 2px solid #fff;
+  	border-right:  2px solid #fff;
+  	text-align: center;
+}
+.product-slide:nth-child(3){
+	border :none;
+}
+.product-slide:first-child{
+	border-right: none;
+}
+.product-slide img{
+	transition: all 1s ease;
+	margin-top: 20px;
+}
+.product-slide a:hover img{
+	transform: scale(1.2);
+}
+.product-slide a{
+	display: block;
+	cursor: pointer;
+	width: 162px;
+	height: 60px;
+	text-align: center;
+}
+#text-rist{
+	color: #7F0613;
+	font-size: 20px;
+    line-height: 20px;
+    font-stretch: condensed;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.shopping-now{
+	padding: 20px 80px;
+	background-color: #fff;
+	border:2px solid #fff;
+	width: 150px;
+	color: #000;
+	font-size: 13px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-weight: 1000;
+}
+.shopping-now:hover{
+	background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.football-section{
+	background: url(../img/feature-1-background-.jpg);
+	min-height: 700px;
+	/*background-position: top;*/
+	padding-top: 150px;
+	opacity: 0;
+	transition: all 1s ease;
+}
+#section-left{
+	margin-left:  200px;
+	float: left;
+}
+#section-left1{
+	margin-left:  200px;
+	float: left;
+	transition: all 2s ease;
+	transform: translateY(30px);
+}
+#section-right{
+	float:right;
+	margin-right: 50px;
+	transition: all 2s ease;
+	transform: translateY(30px);
+}
+#section-right1{
+	float:right;
+	margin-right: 50px;
+}
+
+#unlock-copy{
+	color: #fff;
+	font-size: 18px;
+    line-height: 25px;
+    font-stretch: condensed;
+    height: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    letter-spacing: -0.5px;
+    word-spacing: 1.5px;
+}
+.football-section1{
+	min-height: 700px;
+	background: url(../img/feature-1-background-.jpg);
+	padding-top: 50px;
+	background-position: left;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+#right-1{
+	
+}
+#video{
+	box-shadow: 0 10px 6px -6px black;
+}
+.football-inset-2{
+	opacity: 0;
+	transition: all 1.5s ease-in-out;
+	transform: translateY(30px);
+}
+.football-section2{
+	min-height: 800px;
+	background-color: #000;
+	padding-top: 20px;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+.title-surface{
+	font-family: adihausDIN-regular-cond,sans-serif;
+    color: #fff;
+    letter-spacing: 12px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 800;
+    font-stretch: condensed;
+    height: 48px;
+    color: #f70325;
+    text-transform: uppercase;
+    text-align: center;
+    transform: translateY(30px);
+    transition: all 2s ease;
+
+}
+.teaser-media{
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+	transform: translateY(30px);
+    transition: all 3s ease;
+}
+.teaser-media a{
+	position: relative;
+}
+#figure-teaser{
+	position: relative;
+	width: 100%;
+}
+#figure-teaser img{
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+   	transition: all 0.5s linear;
+  	-webkit-transform: scale3d(1, 1, 1);
+  	-moz-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+#figure-teaser img:hover{
+	-webkit-transform: scale3d(1.1, 1.1, 1);
+	-moz-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+}
+#figcaption-teaser{
+	position: absolute;
+  	bottom: 150px;
+  	width: 100%;
+
+}
+#figcaption-teaser h2{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	font-family: adihausDIN-regular-cond,sans-serif;
+    color: #fff;
+    letter-spacing: 12px;
+    line-height: 48px;
+    font-weight: 800;
+    font-stretch: condensed;
+    height: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.span-teaser{
+	position: absolute;
+	bottom:50px;
+	background:#fff;
+	padding: 20px 40px;
+	width: 150px;
+	margin: auto;
+	color: #000;
+	text-align: center;
+	margin-left: 130px;
+	font-family: adineue-bold,sans-serif;
+    font-size: 13px;
+    border: 2px solid #fff;
+    font-weight: 1000;
+    font-stretch: condensed;
+    transition: all 0.3s ;
+
+}
+.span-teaser:hover{
+	background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}

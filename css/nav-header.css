@@ -1,0 +1,195 @@
+
+.nav{
+	height:80px;
+	width: 100%;
+	background: #000;
+}
+#nav-header {
+	list-style-type: none;
+	float: left;
+}
+#nav-header li{
+	display: inline-block;
+	padding: 5px 20px;
+	height: 45px;
+}
+#nav-header li #parent-item{
+	color: #fff;
+	font-family: 'adihausbold',Arial,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	/*margin: 0 auto 2em;*/
+	cursor: pointer;
+  	display: block;
+  	line-height: 45px;
+  	letter-spacing: 2px;
+  	-webkit-transition:all 1s ease-out;
+	-moz-transition:all 1s ease-out;
+	-ms-transition:all 1s ease-out;
+	-o-transition:all 1s ease-out;
+	transition:all 1s ease-out;
+}
+#nav-header li #parent-item:focus{
+	border-bottom: 2px solid #fff;
+	letter-spacing: 5px;
+	color: #1BBC9B;
+}
+#nav-header li #parent-item:hover,
+#nav-header li #parent-item:active{
+	border-bottom: 2px solid #1BBC9B;
+	letter-spacing: 5px;
+	color: #1BBC9B;
+}
+.logo{
+	width: 150px;
+	float: left;
+	margin: 20px 0px 0px 50px;
+}
+.active:hover{
+	background: #121213;
+}
+.input-search{
+	font: 15px/24px "Lato", Arial, sans-serif;
+	border: 0;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px 0px 20px;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    /*-webkit-transition: width 0.5s ease-in-out; /* Safari 3.1 to 6.0 */
+    /*transition: width 0.5s ease-in-out;*/
+    /*transition: border-bottom 1s ease-in-out;*/
+    /*transition: border 0.5s ease-in-out;*/*/
+    -webkit-transition:all 1s ease-out;
+	-moz-transition:all 1s ease-out;
+	-ms-transition:all 1s ease-out;
+	-o-transition:all 1s ease-out;
+	transition:all 1s ease-out;
+}
+.input-search:focus{
+	width: 220px;
+	padding: 25px 20px 30px 20px;
+	border-bottom: : 3px solid #ffffff;
+	border:  2px solid #ffffff;
+	/*transition: all 0.2s ease-in-out;*/
+}
+.input-search:focus #label-front i{
+	display: none;
+}
+.height70{
+	height: 70px;
+}
+
+#icon-search{
+	color: #fff;
+}
+#logo{
+	-webkit-transition:all 1s ease-out;
+	-moz-transition:all 1s ease-out;
+	-ms-transition:all 1s ease-out;
+	-o-transition:all 1s ease-out;
+	transition:all 1s ease-out;
+	transform: scale(0.7);
+}
+#logo:hover{
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+	transform:scale(1);
+}
+.active{
+	position: relative;
+}
+.item1{
+	width: 1100px;
+	position: absolute;
+	display: none;
+	top:55px;
+	left: -100%;
+	padding: 20px 0;
+	background: #121213;
+	z-index: 1;
+}
+.active:hover .item1{
+	display: block;
+}
+.item-football{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	padding: 0 20px;
+}
+.item-football:first-child{
+	margin-left: 20px;
+};
+.img-football{
+	width: 30px;
+	height: 20px;
+	margin-right: 10px;
+
+}
+.item-football #text-football,.item-expand #text-football{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'adihausbold',Arial,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 10px;
+}
+#text-football:hover{
+	color: #1BBC9B;
+}
+.img-football1{
+	width: 100%;
+	margin: 15px 0 5px 0;
+
+}
+.img-football1{
+	-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+	-moz-transform:scale(0.8); /*Mozilla scale version*/
+	-o-transform:scale(0.8); /*Opera scale version*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+	-o-transition-duration: 0.5s; /*Opera duration version*/
+	margin: 15px 10px 5px 0; /*margin between images*/
+}
+.img-football1:hover{
+	-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+	-moz-transform:scale(1.1); /*Mozilla scale version*/
+	-o-transform:scale(1.1); /*Opera scale version*/
+}
+#all-football{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'adihausbold',Arial,Helvetica,Verdana,sans-serif;
+	font-weight: 200;
+	margin: 0 0 0 70px;
+	margin-top: 10px;
+}
+#all-football:hover{
+	color: #1BBC9B;
+}
+.expand a:not(:first-child){
+	height: 20px;
+	display: block;
+	color: #1BBC9B;
+	text-decoration: none;
+	padding: 5px 10px;
+	line-height: 20px;
+	margin: 10px
+
+}
+.expand a:hover{
+	color: #fff;
+}
+.border-football{
+	border-right: 2px dotted #fff;
+}
